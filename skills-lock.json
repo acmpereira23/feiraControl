@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "63b5b9b6ca2c4654d927d240cf8637360b347461189433e78102ba22a90684ff"
+    },
+    "tailwindcss": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "d7b9e3e49ffd0f4d2185d894568035633d31a0b7cb09494c6c0df4799a0a3ff3"
+    },
+    "ui-ux-pro-max": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "ec90b96361a8c1c59ee642cde483398d07c1a884fcaa5850945181f8a08f9a26"
+    },
+    "vercel-composition-patterns": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "1aa8cc5a812ffcb991f8d9528d2aefc85158cddfdf3c4a810c597f0c9c7bfc89"
+    },
+    "vercel-react-best-practices": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "0c40488a357b638d7eb188086f93d166128b8c5ca54d6e0d04ac1bca4062e5c1"
+    },
+    "web-design-guidelines": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "2b4252a346243aa696da2d021a7a2f747259567cd3ca51308ee86ca24ab60d86"
+    }
+  }
+}

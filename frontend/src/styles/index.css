@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --canvas: #f3eee4;
+  --paper: #fbf7f0;
+  --card: #f4ede1;
+  --paper-elevated: #fffaf3;
+  --line-soft: rgba(65, 52, 43, 0.14);
+  --line-strong: rgba(65, 52, 43, 0.32);
+  --ink-strong: #1f1815;
+  --ink-muted: #5f5047;
+  --accent-strong: #a4572a;
+  --accent-soft: rgba(164, 87, 42, 0.12);
+  --accent-income: #1f7a4e;
+  --accent-income-soft: rgba(31, 122, 78, 0.14);
+  --accent-expense: #b04a5a;
+  --accent-expense-soft: rgba(176, 74, 90, 0.14);
+  --surface-warm: linear-gradient(180deg, rgba(251, 247, 240, 0.96), rgba(244, 238, 229, 0.92));
+  --shadow-panel: 0 26px 60px rgba(53, 36, 27, 0.08);
+  --shadow-float: 0 14px 30px rgba(53, 36, 27, 0.08);
+  --focus-ring: rgba(164, 87, 42, 0.22);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(31, 122, 78, 0.1), transparent 24%),
+    radial-gradient(circle at top right, rgba(164, 87, 42, 0.12), transparent 25%),
+    linear-gradient(180deg, #f3eee4 0%, #e8dfd1 100%);
+  color: var(--ink-strong);
+  font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  caret-color: var(--accent-strong);
+}
+
+::selection {
+  background: rgba(164, 87, 42, 0.18);
+  color: var(--ink-strong);
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

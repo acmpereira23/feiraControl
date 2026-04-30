@@ -1,0 +1,33 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex
+
+# Docs / Tasks
+*.md
+/tasks/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Java / Maven
+.m2/
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/playwright-report/
+frontend/test-results/
+
+# Coverage
+coverage/
